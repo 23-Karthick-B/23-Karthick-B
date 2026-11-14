@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Karthick B. — Backend systems, built for the real world</title>
+  <desc id="desc">A vivid 3D-inspired profile banner with dimensional lettering, glowing geometric forms, and backend technology motifs.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080c20"/>
+      <stop offset=".48" stop-color="#17133a"/>
+      <stop offset="1" stop-color="#071c2a"/>
+    </linearGradient>
+    <linearGradient id="titleFace" x1="0" y1="0" x2=".85" y2="1">
+      <stop stop-color="#fff5c8"/>
+      <stop offset=".32" stop-color="#ffffff"/>
+      <stop offset=".72" stop-color="#b9fff0"/>
+      <stop offset="1" stop-color="#8cecff"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff4fd8"/>
+      <stop offset=".48" stop-color="#8b6cff"/>
+      <stop offset="1" stop-color="#43f4d0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4c45a8" stop-opacity=".62"/>
+      <stop offset=".55" stop-color="#163d60" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#19d6c1" stop-opacity=".45"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#754dff" stop-opacity=".42"/>
+      <stop offset=".55" stop-color="#25d9ce" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#11102b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#b8c5ff" stroke-opacity=".065"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-50%" width="180%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="blur"/>
+      <feOffset dy="12" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".55"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="neon" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#space)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <ellipse cx="903" cy="170" rx="300" ry="250" fill="url(#aura)"/>
+  <path d="M0 292H1200" stroke="#bdc8ff" stroke-opacity=".14"/>
+
+  <g fill="none" stroke="url(#edge)" stroke-width="1.5" opacity=".75">
+    <path d="M686 64H812L846 98H972"/>
+    <path d="M706 253H815L858 210H1008L1042 244H1180"/>
+    <path d="M884 34V72L910 96"/>
+    <path d="M1110 67V107L1085 132"/>
+  </g>
+  <g fill="#eaffff" filter="url(#soft)">
+    <circle cx="812" cy="64" r="3"/><circle cx="972" cy="98" r="3"/>
+    <circle cx="815" cy="253" r="3"/><circle cx="1008" cy="210" r="3"/>
+    <circle cx="884" cy="72" r="3"/><circle cx="1110" cy="107" r="3"/>
+  </g>
+
+  <g transform="translate(953 169)" filter="url(#shadow)">
+    <ellipse cx="0" cy="93" rx="142" ry="32" fill="#030716" opacity=".64"/>
+    <path d="M-104-34L-13-83L82-34L-9 16Z" fill="#4945a8" stroke="#b49cff" stroke-opacity=".8"/>
+    <path d="M-104-34L-9 16V112L-104 61Z" fill="#252a68" stroke="#8e81ff" stroke-opacity=".72"/>
+    <path d="M-9 16L82-34V62L-9 112Z" fill="#146c78" stroke="#66ffe2" stroke-opacity=".8"/>
+    <path d="M-104-34L-13-83L82-34L-9 16Z" fill="url(#glass)" opacity=".8"/>
+    <path d="M-69-37L-14-67L42-37L-12-7Z" fill="none" stroke="#e9edff" stroke-opacity=".54"/>
+    <path d="M-9 16V112M-104-34L-9 16L82-34" fill="none" stroke="#e9edff" stroke-opacity=".22"/>
+    <circle cx="-13" cy="-35" r="10" fill="#b9fff0" filter="url(#neon)"/>
+  </g>
+
+  <g transform="translate(1100 78) rotate(18)" opacity=".82">
+    <rect x="-32" y="-32" width="64" height="64" rx="13" fill="#151c4b" stroke="#b58aff" stroke-opacity=".8"/>
+    <path d="M-14-12L0-21L15-12V8L0 17L-14 8Z" fill="none" stroke="#f1ddff" stroke-width="2"/>
+    <path d="M0-21V17M-14-12L0-3L15-12M-14 8L0-1L15 8" fill="none" stroke="#f1ddff" stroke-opacity=".65"/>
+  </g>
+  <g transform="translate(826 244) rotate(-17)" opacity=".9">
+    <rect x="-28" y="-28" width="56" height="56" rx="12" fill="#102f42" stroke="#62f2dc" stroke-opacity=".85"/>
+    <path d="M-12-9H12M-12 0H6M-12 9H12" stroke="#c3fff4" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="762" cy="132" r="1.7" opacity=".78"/><circle cx="832" cy="48" r="1.5" opacity=".65"/>
+    <circle cx="1035" cy="44" r="1.8" opacity=".76"/><circle cx="1152" cy="179" r="1.6" opacity=".72"/>
+    <circle cx="1095" cy="281" r="1.4" opacity=".65"/><circle cx="754" cy="207" r="1.3" opacity=".58"/>
+    <circle cx="1008" cy="113" r="1.5" opacity=".74"/><circle cx="934" cy="291" r="1.6" opacity=".65"/>
+  </g>
+
+  <text x="66" y="58" fill="#8ef8e4" font-family="monospace" font-size="12" font-weight="700" letter-spacing="3">BACKEND ENGINEER</text>
+  <text x="64" y="151" fill="#452f91" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-3">KARTHICK B.</text>
+  <text x="61" y="144" fill="url(#titleFace)" stroke="#ffffff" stroke-opacity=".4" stroke-width=".7" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-3" filter="url(#shadow)">KARTHICK B.</text>
+  <path d="M68 168H494" stroke="url(#edge)" stroke-width="3" stroke-linecap="round" filter="url(#soft)"/>
+  <text x="68" y="206" fill="#e7eaff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">Backend systems, built for the real world.</text>
+  <text x="69" y="247" fill="#aebbd5" font-family="monospace" font-size="13" font-weight="700" letter-spacing="1.4">JAVA</text>
+  <circle cx="125" cy="243" r="2.5" fill="#ff63d8"/>
+  <text x="141" y="247" fill="#aebbd5" font-family="monospace" font-size="13" font-weight="700" letter-spacing="1.4">SPRING BOOT</text>
+  <circle cx="269" cy="243" r="2.5" fill="#8d7aff"/>
+  <text x="286" y="247" fill="#aebbd5" font-family="monospace" font-size="13" font-weight="700" letter-spacing="1.4">DISTRIBUTED SYSTEMS</text>
+  <rect x="68" y="278" width="176" height="32" rx="16" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".14"/>
+  <circle cx="87" cy="294" r="4" fill="#80ffcb" filter="url(#soft)"/>
+  <text x="101" y="298" fill="#dbe6ff" font-family="monospace" font-size="11" letter-spacing="1">DESIGN  /  BUILD  /  SHIP</text>
+</svg>
