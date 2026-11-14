@@ -6,8 +6,8 @@
 
 `JAVA` &nbsp; `SPRING BOOT` &nbsp; `BACKEND ENGINEERING`
 
-I work on the parts users may never see—but every product depends on:  
-**APIs · jobs · queues · data · dependable execution**
+I turn requests into results—**one reliable backend at a time.**  
+`APIs` &nbsp; `ASYNC WORKFLOWS` &nbsp; `DATA SYSTEMS` &nbsp; `SCALABLE SERVICES`
 
 <a href="mailto:karthickbalaji23@gmail.com">LET’S BUILD SOMETHING</a>
 &nbsp;&nbsp;✳&nbsp;&nbsp;
