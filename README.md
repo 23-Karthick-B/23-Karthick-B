@@ -19,16 +19,29 @@ I turn requests into results—**one reliable backend at a time.**
 
 ## `01` &nbsp; THE BUILD LOG
 
+### ⚡ Distributed Code Execution Platform
+**From code submission to isolated execution.**
+
+Built an asynchronous, multi-worker backend that runs submitted code inside isolated Docker containers. The platform schedules jobs and tracks execution status and history.
+
+`JAVA` &nbsp; `SPRING BOOT` &nbsp; `DOCKER` &nbsp; `REDIS` &nbsp; `MYSQL`
+
+<div align="center">
+
+<img src="assets/engineering-constellation.svg" alt="A visual constellation of backend engineering, APIs, distributed systems, Java, Spring Boot, Docker, Redis, and cloud tools" width="100%" />
+
+</div>
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ Distributed Code Execution
-**From code submission to isolated execution.**
+### 🧩 Employee Management System
+**Role-based workflows for employees and admins.**
 
-Asynchronous job scheduling and multi-worker processing run submitted code in isolated Docker containers, with execution status and history tracked by the backend.
+Built at **Saksoft**: employees can manage their profiles and download payslips; admins can manage employee records through CRUD workflows.
 
-`JAVA` `SPRING BOOT` `DOCKER` `REDIS` `MYSQL`
+`JAVA` &nbsp; `SPRING BOOT` &nbsp; `REST API` &nbsp; `MYSQL`
 
 </td>
 <td width="50%" valign="top">
@@ -38,29 +51,11 @@ Asynchronous job scheduling and multi-worker processing run submitted code in is
 
 A Spring Boot API pairs ingredient-based recommendations with structured prompts and response validation for AI-generated cooking suggestions.
 
-`JAVA` `SPRING BOOT` `OPENAI` `REACT`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🧩 Employee Management System
-**Role-based workflows for employees and admins.**
-
-Built at **Saksoft**: employees can manage their profiles and download payslips; admins can manage employee records through CRUD workflows.
-
-`JAVA` `SPRING BOOT` `REST API` `MYSQL`
+`JAVA` &nbsp; `SPRING BOOT` &nbsp; `OPENAI` &nbsp; `REACT`
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-<img src="assets/engineering-constellation.svg" alt="A visual constellation of backend engineering, APIs, distributed systems, Java, Spring Boot, Docker, Redis, and cloud tools" width="100%" />
-
-</div>
 
 ## `02` &nbsp; THE TOOLKIT
 
