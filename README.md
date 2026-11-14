@@ -7,7 +7,7 @@
 `JAVA` &nbsp; `SPRING BOOT` &nbsp; `BACKEND ENGINEERING`
 
 I work on the parts users may never see—but every product depends on:  
-**APIs · identity · queues · data · dependable execution**
+**APIs · jobs · queues · data · dependable execution**
 
 <a href="mailto:karthickbalaji23@gmail.com">LET’S BUILD SOMETHING</a>
 &nbsp;&nbsp;✳&nbsp;&nbsp;
